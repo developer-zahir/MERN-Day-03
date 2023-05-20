@@ -136,13 +136,13 @@
  */
 
 // increment
-// let count = 0;
-// for ( let i = 10000; i<= 10050; i++){
-//     console.log(`${count++} ===> ${i}`);
-// }
+let count = 1;
+for (let i = 10000; i < 10050; i++) {
+    console.log(`Count ${count++} => ${i}`);
+}
 
 // decrement
-// let count = 0;
-// for (let i = 10000; i >= 9950; i--) {
-//     console.log(`${count++} ===> ${i}`);
+// let count = 1;
+// for (let i = 10000; i > 9950; i--) {
+//     console.log(`Count ${count++} => ${i}`);
 // }
